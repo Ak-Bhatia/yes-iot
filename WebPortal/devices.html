@@ -212,9 +212,9 @@ Button / Slider Switch
   var val = firebase.database().ref().child('User1').once('D1');
   firebase.database().ref('User1').child('D1').set((val+1)%2);
   if(val == 1){
-    alert("now On",val);
+    alert("now On");
   } else {
-    alert("now Off",val);
+    alert("now Off");
   }
 }
 
